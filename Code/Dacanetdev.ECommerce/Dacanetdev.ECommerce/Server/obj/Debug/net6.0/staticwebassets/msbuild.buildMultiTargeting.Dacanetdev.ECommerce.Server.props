@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Dacanetdev.ECommerce.Server.props" />
+</Project>
