@@ -7,10 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazorise.Bootstrap" Version="1.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.11" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Dacanetdev.ECommerce.Intfrastructure.CosmosDb\Dacanetdev.ECommerce.Infrastructure.CosmosDb.csproj" />
     <ProjectReference Include="..\Client\Dacanetdev.ECommerce.Client.csproj" />
     <ProjectReference Include="..\Shared\Dacanetdev.ECommerce.Shared.csproj" />
   </ItemGroup>

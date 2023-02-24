@@ -10,3 +10,15 @@ C:\Dev\GitHub\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shar
 C:\Dev\GitHub\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\refint\Dacanetdev.ECommerce.Shared.dll
 C:\Dev\GitHub\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\Dacanetdev.ECommerce.Shared.pdb
 C:\Dev\GitHub\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\ref\Dacanetdev.ECommerce.Shared.dll
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\bin\Debug\net6.0\Dacanetdev.ECommerce.Shared.deps.json
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\bin\Debug\net6.0\Dacanetdev.ECommerce.Shared.dll
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\bin\Debug\net6.0\Dacanetdev.ECommerce.Shared.pdb
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\Dacanetdev.ECommerce.Shared.csproj.AssemblyReference.cache
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\Dacanetdev.ECommerce.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\Dacanetdev.ECommerce.Shared.AssemblyInfoInputs.cache
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\Dacanetdev.ECommerce.Shared.AssemblyInfo.cs
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\Dacanetdev.ECommerce.Shared.csproj.CoreCompileInputs.cache
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\Dacanetdev.ECommerce.Shared.dll
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\refint\Dacanetdev.ECommerce.Shared.dll
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\Dacanetdev.ECommerce.Shared.pdb
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce\Shared\obj\Debug\net6.0\ref\Dacanetdev.ECommerce.Shared.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dvtcWZfJ7w388Iw9yC6L909TupJ3UlEakNsF7JM159F5PCnclBv7MQHUb7tMB+XRuIWCoKi+4YpPClms1V7nJQ==",
+  "dgSpecHash": "kgIArNM5j0/Sk3XkTp9/udz136C1kOWzNRkJOMhuYpLhXJI2slZpj5wzXY/mkNYqbiOBfR7ECI1JoPVfGbIihQ==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj",
+  "projectFilePath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

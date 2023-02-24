@@ -1,9 +1,11 @@
+using Dacanetdev.ECommerce.Infrastructure.CosmosDb.EF;
+using Dacanetdev.ECommerce.Infrastructure.CosmosDb.Extensions;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddCosmosModules(builder.Configuration);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
@@ -27,7 +29,6 @@ app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 
 app.MapRazorPages();
 app.MapControllers();

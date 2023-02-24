@@ -8,32 +8,31 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dcarrillo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj",
+      "projectUniqueName": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj",
       "projectName": "Dacanetdev.ECommerce.Domain",
-      "projectPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\obj\\",
+      "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj",
+      "packagesPath": "C:\\Users\\dcarrillo\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\dcarrillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -57,8 +56,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -67,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

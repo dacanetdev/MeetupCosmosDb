@@ -1,194 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\Dacanetdev.ECommerce.Server.csproj": {}
+    "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\Dacanetdev.ECommerce.Server.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj": {
+    "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj",
-        "projectName": "Dacanetdev.ECommerce.Client",
-        "projectPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\obj\\",
+        "projectUniqueName": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj",
+        "projectName": "Dacanetdev.ECommerce.Domain",
+        "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\dcarrillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\dcarrillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj": {
-                "projectPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
-              "target": "Package",
-              "version": "[6.0.11, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.11, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.13, 6.0.13]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "browser-wasm": {
-          "#import": []
-        }
-      }
-    },
-    "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\Dacanetdev.ECommerce.Server.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\Dacanetdev.ECommerce.Server.csproj",
-        "projectName": "Dacanetdev.ECommerce.Server",
-        "projectPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\Dacanetdev.ECommerce.Server.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj": {
-                "projectPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj"
-              },
-              "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj": {
-                "projectPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
-              "target": "Package",
-              "version": "[6.0.11, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj",
-        "projectName": "Dacanetdev.ECommerce.Shared",
-        "projectPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\GitHub\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -212,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -222,7 +58,317 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Intfrastructure.CosmosDb\\Dacanetdev.ECommerce.Infrastructure.CosmosDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Intfrastructure.CosmosDb\\Dacanetdev.ECommerce.Infrastructure.CosmosDb.csproj",
+        "projectName": "Dacanetdev.ECommerce.Infrastructure.CosmosDb",
+        "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Intfrastructure.CosmosDb\\Dacanetdev.ECommerce.Infrastructure.CosmosDb.csproj",
+        "packagesPath": "C:\\Users\\dcarrillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Intfrastructure.CosmosDb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcarrillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.32.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Cosmos": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj",
+        "projectName": "Dacanetdev.ECommerce.Client",
+        "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj",
+        "packagesPath": "C:\\Users\\dcarrillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcarrillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj": {
+                "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Domain\\Dacanetdev.ECommerce.Domain.csproj"
+              },
+              "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj": {
+                "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazorise.Bootstrap": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.6, 6.0.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\Dacanetdev.ECommerce.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\Dacanetdev.ECommerce.Server.csproj",
+        "projectName": "Dacanetdev.ECommerce.Server",
+        "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\Dacanetdev.ECommerce.Server.csproj",
+        "packagesPath": "C:\\Users\\dcarrillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcarrillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Intfrastructure.CosmosDb\\Dacanetdev.ECommerce.Infrastructure.CosmosDb.csproj": {
+                "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce.Intfrastructure.CosmosDb\\Dacanetdev.ECommerce.Infrastructure.CosmosDb.csproj"
+              },
+              "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj": {
+                "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Client\\Dacanetdev.ECommerce.Client.csproj"
+              },
+              "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj": {
+                "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazorise.Bootstrap": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj",
+        "projectName": "Dacanetdev.ECommerce.Shared",
+        "projectPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\Dacanetdev.ECommerce.Shared.csproj",
+        "packagesPath": "C:\\Users\\dcarrillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\MeetupCosmosDb\\Code\\Dacanetdev.ECommerce\\Dacanetdev.ECommerce\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcarrillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
