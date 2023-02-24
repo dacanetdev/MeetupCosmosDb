@@ -1,0 +1,12 @@
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\bin\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.deps.json
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\bin\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.dll
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\bin\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.pdb
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.csproj.AssemblyReference.cache
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.AssemblyInfoInputs.cache
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.AssemblyInfo.cs
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.csproj.CoreCompileInputs.cache
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.dll
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\refint\Dacanetdev.ECommerce.Infrastructure.Core.dll
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\Dacanetdev.ECommerce.Infrastructure.Core.pdb
+C:\Dev\MeetupCosmosDb\Code\Dacanetdev.ECommerce\Dacanetdev.ECommerce.Infrastructure.Core\obj\Debug\net6.0\ref\Dacanetdev.ECommerce.Infrastructure.Core.dll

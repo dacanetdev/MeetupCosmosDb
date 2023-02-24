@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dacanetdev.ECommerce.Infrastructure.Core/1.0.0": {
+        "runtime": {
+          "Dacanetdev.ECommerce.Infrastructure.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dacanetdev.ECommerce.Infrastructure.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,100 @@
+﻿@page "/products-sdk"
+@using Dacanetdev.ECommerce.Domain
+@using Dacanetdev.ECommerce.Shared
+@inject HttpClient Http
+
+<PageTitle>Products</PageTitle>
+
+<h1>Products</h1>
+
+@if (products == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <Row>
+    <Column ColumnSize="ColumnSize.Is5">
+    @foreach(var product in products)
+    {
+        <Card>
+            <CardBody>
+                <CardTitle Size="5">@product.Name</CardTitle>
+                <CardImage Source="@product.Image"></CardImage>
+                <CardText>@product.Description</CardText>
+                <p style="text-align:end">
+                    <Button Color="Color.Primary" @onclick=@(() => AddToCart(product))>Add to Cart</Button>
+                </p>
+            </CardBody>
+        </Card>
+    }
+    </Column>
+    <Column ColumnSize="ColumnSize.Is7">
+        <h2>Cart</h2>
+        <h5>@($"{sale.Customer.FirstName} {sale.Customer.LastName}'s Items")</h5>
+        <ListGroup>
+        @foreach (var saleItem in sale.SaleItems)
+        {
+            <ListGroupItem>
+                @($"{saleItem.Product.Name}({saleItem.Quantity}) = {saleItem.Product.Price*saleItem.Quantity}")
+            </ListGroupItem>
+        }
+        <ListGroupItem style="text-align:end;">
+            <Span>Total:</Span>
+            <Span>@($"{sale.Total:C}")</Span>
+        </ListGroupItem>
+        </ListGroup>
+        <p style="text-align:end;">
+            <Button Color="Color.Primary" @onclick=@(() => SaveCart())>Save Cart</Button>
+        </p>
+    </Column>
+    </Row>
+}
+
+@code {
+    private Product[]? products;
+    private Sale sale = new Sale()
+    {
+        Customer = new Customer()
+        {
+            FirstName = "David",
+            LastName = "Carrillo"
+        },
+        SaleItems = new List<SaleItem>()
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<Product[]>("ProductSDK");
+    }
+
+    public Task AddToCart(Product product)
+    {
+        sale.SaleItems.Add(new SaleItem()
+            {
+                Product = product,
+                Quantity = 1
+            });
+
+        setTotal();
+
+        return Task.CompletedTask;
+    }
+
+    public async Task SaveCart()
+    {
+        await Http.PostAsJsonAsync<Sale>("ProductSDK", sale);
+    }
+
+    private void setTotal()
+    {
+        var total = 0.00;
+
+        foreach (var saleItem in sale.SaleItems)
+        {
+            total += saleItem.Product.Price * (double)saleItem.Quantity;
+        }
+
+        sale.Total = total;
+    }
+}
